@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Link Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link Google Font -->
+
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+  <body>
+    <main>
+      <article class="card">
+        <div class="card__img-container">
+          <picture>
+            <source
+              media="(min-width: 1200px)"
+              srcset="images/image-header-desktop.jpg"
+            />
+            <source
+              media="(min-width: 992px)"
+              srcset="images/image-header-mobile.jpg"
+            />
+            <img
+              src="images/image-header-desktop.jpg"
+              alt="Group of women working in the office"
+            />
+          </picture>
+        </div>
+        <div class="card__content">
+          <h1 class="card__title">
+            Get <span>insights</span> that help your business grow.
+          </h1>
+          <p class="card__summary">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+          <div class="card__stats">
+            <div class="card__stats-info">
+              <h2>10k+</h2>
+              <span>Companies</span>
+            </div>
+            <div class="card__stats-info">
+              <h2>314</h2>
+              <span>Templates</span>
+            </div>
+            <div class="card__stats-info">
+              <h2>12M+</h2>
+              <span>Queries</span>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://sagnik-ghosh.vercel.app" target="_blank">Sagnik Ghosh</a
+      >.
+    </div>
+  </body>
+</html>
